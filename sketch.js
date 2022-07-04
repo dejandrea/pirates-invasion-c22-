@@ -53,6 +53,34 @@ function draw() {
   pop() //volta para a configuração antiga
 
 
+  // exibindo a torre na tela
+  push() //inicia uma nova configuração
+  imageMode(CENTER)
+  image(towerImg,tower.position.x, tower.position.y,160,310)
+  pop() //volta para a configuração antiga
+
+
+  // exibindo a torre na tela
+  push() //inicia uma nova configuração
+  imageMode(CENTER)
+  image(towerImg,tower.position.x, tower.position.y,160,310)
+  pop() //volta para a configuração antiga
+
+
+  // exibindo a torre na tela
+  push() //inicia uma nova configuração
+  imageMode(CENTER)
+  image(towerImg,tower.position.x, tower.position.y,160,310)
+  pop() //volta para a configuração antiga
+
+
+  // exibindo a torre na tela
+  push() //inicia uma nova configuração
+  imageMode(CENTER)
+  image(towerImg,tower.position.x, tower.position.y,160,310)
+  pop() //volta para a configuração antiga
+
+
   // posição do mouse na tela
   text("X:"+mouseX+" | Y:"+mouseY,mouseX, mouseY)
 }

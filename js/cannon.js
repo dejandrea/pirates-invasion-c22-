@@ -8,6 +8,26 @@ class Cannon{
   }
 
   display(){
-    
+    // exibindo a torre na tela
+  push() //inicia uma nova configuração
+  imageMode(CENTER)
+  image(towerImg,tower.position.x, tower.position.y,160,310)
+  pop() //volta para a configuração antiga
+  // exibindo a torre na tela
+  push() //inicia uma nova configuração
+  imageMode(CENTER)
+  image(towerImg,tower.position.x, tower.position.y,160,310)
+  pop() //volta para a configuração antiga
+  // exibindo a torre na tela
+  push() //inicia uma nova configuração
+  imageMode(CENTER)
+  image(towerImg,tower.position.x, tower.position.y,160,310)
+  pop() //volta para a configuração antiga
+  // exibindo a torre na tela
+  push() //inicia uma nova configuração
+  imageMode(CENTER)
+  image(towerImg,tower.position.x, tower.position.y,160,310)
+  pop() //volta para a configuração antiga
+  
   }
 }
